@@ -93,10 +93,25 @@ export class AppComponent {
   public posibleGhosts = this.allGhosts;
 
   public changeEvidenceStatus(evidence: Evidence) {
-    const foo = this.posibleEvidences.find(
+    const evidenceToChange = this.posibleEvidences.find(
       (posibleEvidence) => evidence.name === posibleEvidence.name
     );
 
-    foo!.status = 'it';
+    if (!evidenceToChange) return;
+
+    if (evidenceToChange.status === 'unknown') {
+      evidenceToChange.status = 'it';
+      return;
+    }
+
+    if (evidenceToChange.status === 'it') {
+      evidenceToChange.status = 'not-it';
+      return;
+    }
+
+    if (evidenceToChange.status === 'not-it') {
+      evidenceToChange.status = 'unknown';
+      return;
+    }
   }
 }

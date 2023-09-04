@@ -7,16 +7,18 @@
     </div>
   </app-card>
 
-  <app-card title="Evidence" class="app__evidence">
-    <div class="evidence">
+  <app-card title="Evidence" class="app__evidences">
+    <div class="evidences">
       <app-item
         *ngFor="let evidence of posibleEvidences"
         (click)="changeEvidenceStatus(evidence)"
+        [status]="evidence.status"
       >
         {{ evidence.name }}
       </app-item>
     </div>
   </app-card>
 
-  <app-card title="Ghost description" class="app_ghost-description"> </app-card>
+  <app-card title="Ghost description" class="app__ghost-description">
+  </app-card>
 </div>

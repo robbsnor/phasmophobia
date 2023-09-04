@@ -1,16 +1,26 @@
 .app {
-  display: flex;
   width: 800px;
   margin: 200px auto;
   padding: 20px;
   border-radius: 4px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "ghosts evidences"
+    "ghostDescription  ghostDescription";
   gap: 20px;
 
-  &__ghosts {}
+  &__ghosts {
+    grid-area: ghosts;
+  }
 
-  &__evidence {}
+  &__evidences {
+    grid-area: evidences;
+    height: auto;
+  }
+
+  &__ghost-description {
+    grid-area: ghostDescription;
+  }
 }
 
 .ghosts {
@@ -19,7 +29,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.evidence {
+.evidences {
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 1fr;

@@ -1,5 +1,6 @@
 .item {
-  padding: 4px 6px;
+  padding: 5px 7px;
+  line-height: 1;
   background-color: #202020;
   border: 1px solid #303030;
   border-radius: 4px;
@@ -8,5 +9,17 @@
   &:hover {
     background-color: #303030;
     border-color: #404040;
+  }
+
+  &--not-it {
+    text-decoration: line-through;
+  }
+
+  &--it {
+    border-color: green;
+
+    &:hover {
+      border-color: green;
+    }
   }
 }
