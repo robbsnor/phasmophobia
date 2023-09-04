@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  width: 800px;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  &__ghosts {}
+
+  &__evidence {}
+}
+
+.ghosts {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.evidence {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr;
+}

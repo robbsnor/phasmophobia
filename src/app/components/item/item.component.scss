@@ -1,0 +1,12 @@
+.item {
+  padding: 4px 6px;
+  background-color: #202020;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #303030;
+    border-color: #404040;
+  }
+}
