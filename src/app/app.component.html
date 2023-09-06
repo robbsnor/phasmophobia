@@ -1,5 +1,5 @@
 <div class="app">
-  <app-card title="Ghosts" class="app__ghosts">
+  <app-card [title]="'Ghosts'" class="app__ghosts">
     <div class="ghosts">
       <app-item *ngFor="let ghost of posibleGhosts">
         {{ ghost.name }}
@@ -7,7 +7,7 @@
     </div>
   </app-card>
 
-  <app-card title="Evidence" class="app__evidences">
+  <app-card [title]="'Evidence'" class="app__evidences">
     <div class="evidences">
       <app-item
         class="evidences__evidence"
@@ -20,6 +20,6 @@
     </div>
   </app-card>
 
-  <app-card title="Ghost description" class="app__ghost-description">
+  <app-card [title]="'Ghost description'" class="app__ghost-description">
   </app-card>
 </div>
