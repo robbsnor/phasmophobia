@@ -33,4 +33,12 @@
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 1fr;
+
+  &__evidence {
+
+    &:last-of-type {
+      grid-column: span 2;
+      // grid-area: two;
+    }
+  }
 }

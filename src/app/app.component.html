@@ -10,7 +10,8 @@
   <app-card title="Evidence" class="app__evidences">
     <div class="evidences">
       <app-item
-        *ngFor="let evidence of posibleEvidences"
+        class="evidences__evidence"
+        *ngFor="let evidence of evidences"
         (click)="changeEvidenceStatus(evidence)"
         [status]="evidence.status"
       >

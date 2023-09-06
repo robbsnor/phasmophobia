@@ -89,29 +89,39 @@ export class AppComponent {
     },
   ];
 
-  public posibleEvidences = this.allEvidences;
+  public evidences = this.allEvidences;
   public posibleGhosts = this.allGhosts;
 
   public changeEvidenceStatus(evidence: Evidence) {
-    const evidenceToChange = this.posibleEvidences.find(
+    const evidenceToChange = this.evidences.find(
       (posibleEvidence) => evidence.name === posibleEvidence.name
     );
-
-    if (!evidenceToChange) return;
-
-    if (evidenceToChange.status === 'unknown') {
-      evidenceToChange.status = 'it';
-      return;
+    if (evidenceToChange) {
+      if (evidenceToChange.status === 'unknown') {
+        evidenceToChange.status = 'it';
+      } else if (evidenceToChange.status === 'it') {
+        evidenceToChange.status = 'not-it';
+      } else if (evidenceToChange.status === 'not-it') {
+        evidenceToChange.status = 'unknown';
+      }
     }
 
-    if (evidenceToChange.status === 'it') {
-      evidenceToChange.status = 'not-it';
-      return;
-    }
+    this.updatePosibleGhosts();
+  }
 
-    if (evidenceToChange.status === 'not-it') {
-      evidenceToChange.status = 'unknown';
-      return;
-    }
+  public updatePosibleGhosts() {
+    const selectedEvidenceNames = this.evidences
+      .filter((evidence) => evidence.status === 'it')
+      .map((evidence) => evidence.name);
+
+    // spirit:    ['EMF Level 5', 'Spirit Box', 'Ultra Violet']
+    // shade:     ['EMF Level 5', 'Ghost Orb', 'Ghost Writing']
+    const posibleGhosts: Ghost[] = [];
+
+    this.posibleGhosts = this.allGhosts.filter((ghost) =>
+      selectedEvidenceNames.every((evidenceName) =>
+        ghost.evidences.includes(evidenceName)
+      )
+    );
   }
 }
