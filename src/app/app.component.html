@@ -1,7 +1,7 @@
 <div class="app">
   <app-card [title]="'Ghosts'" class="app__ghosts">
     <div class="ghosts">
-      <app-item *ngFor="let ghost of posibleGhosts">
+      <app-item *ngFor="let ghost of ghosts" [status]="ghost.status">
         {{ ghost.name }}
       </app-item>
     </div>

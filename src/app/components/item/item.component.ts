@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./item.component.scss'],
 })
 export class ItemComponent {
-  @Input() public status: 'unknown' | 'it' | 'not-it' = 'unknown';
+  @Input() public status: 'faded' | 'shown' | 'selected' = 'faded';
 }

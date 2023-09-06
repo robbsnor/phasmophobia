@@ -11,15 +11,16 @@
     border-color: #404040;
   }
 
-  &--not-it {
-    text-decoration: line-through;
+  &--faded {
+    // text-decoration: line-through;
+    opacity: .5;
   }
 
-  &--it {
-    border-color: green;
+  &--selected {
+    border-color: white;
 
     &:hover {
-      border-color: green;
+      border-color: white;
     }
   }
 }
