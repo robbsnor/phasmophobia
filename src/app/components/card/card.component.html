@@ -1,5 +1,12 @@
 <div class="card">
-  <h3 class="card__title">{{ title }}</h3>
+  <div class="card__header">
+    <h3 class="card__title">{{ title }}</h3>
+
+    <div class="card__actions">
+      <ng-content select="[actions]"></ng-content>
+    </div>
+  </div>
+
   <div class="card__body">
     <ng-content></ng-content>
   </div>

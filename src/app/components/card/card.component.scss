@@ -4,6 +4,11 @@
   padding: 20px;
   height: 100%;
 
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__title {
     margin-bottom: 1rem;
   }
