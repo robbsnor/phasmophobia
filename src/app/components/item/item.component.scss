@@ -1,9 +1,9 @@
 .item {
-  padding: 5px 7px;
+  padding: 7px 9px;
   line-height: 1;
   background-color: #202020;
   border: 1px solid #303030;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
 
   &:hover {
@@ -12,7 +12,6 @@
   }
 
   &--faded {
-    // text-decoration: line-through;
     opacity: .5;
   }
 
