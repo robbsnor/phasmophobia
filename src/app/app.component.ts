@@ -43,7 +43,6 @@ export class AppComponent {
 
     this.ghosts = this.ghosts.map((ghost) => {
       if (posibleGhostNames.includes(ghost.name)) {
-        console.log(ghost);
         ghost.status = 'shown';
         return ghost;
       }
