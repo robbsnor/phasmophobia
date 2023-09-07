@@ -11,31 +11,31 @@ export class AppComponent {
   private defaultEvidences: Evidence[] = [
     {
       name: 'EMF Level 5',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'D.O.T.S. Projector',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'Ultra Violet',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'Ghost Orb',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'Ghost Writing',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'Spirit Box',
-      status: 'shown',
+      status: 'faded',
     },
     {
       name: 'Freezing Temperatures',
-      status: 'shown',
+      status: 'faded',
     },
   ];
   private defaultGhosts: Ghost[] = [
@@ -121,7 +121,7 @@ export class AppComponent {
 
   public updatePosibleGhosts() {
     const selectedEvidenceNames = this.evidences
-      .filter((evidence) => evidence.status === 'faded')
+      .filter((evidence) => evidence.status === 'shown')
       .map((evidence) => evidence.name);
 
     // spirit:    ['EMF Level 5', 'Spirit Box', 'Ultra Violet']
