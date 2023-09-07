@@ -99,6 +99,66 @@ export class AppComponent {
       evidences: ['EMF Level 5', 'Spirit Box', 'Ghost Writing'],
       status: 'shown',
     },
+    {
+      name: 'Yokai',
+      evidences: ['Spirit Box', 'Ghost Orb', 'D.O.T.S. Projector'],
+      status: 'shown',
+    },
+    {
+      name: 'Hantu',
+      evidences: ['Ultra Violet', 'Ghost Orb', 'Freezing Temperatures'],
+      status: 'shown',
+    },
+    {
+      name: 'Goryo',
+      evidences: ['EMF Level 5', 'Ultra Violet', 'D.O.T.S. Projector'],
+      status: 'shown',
+    },
+    {
+      name: 'Myling',
+      evidences: ['EMF Level 5', 'Ultra Violet', 'Ghost Writing'],
+      status: 'shown',
+    },
+    {
+      name: 'Onryo',
+      evidences: ['Spirit Box', 'Ghost Orb', 'Freezing Temperatures'],
+      status: 'shown',
+    },
+    {
+      name: 'The Twins',
+      evidences: ['EMF Level 5', 'Spirit Box', 'Freezing Temperatures'],
+      status: 'shown',
+    },
+    {
+      name: 'Raiju',
+      evidences: ['EMF Level 5', 'Ghost Orb', 'D.O.T.S. Projector'],
+      status: 'shown',
+    },
+    {
+      name: 'Obake',
+      evidences: ['EMF Level 5', 'Ultra Violet', 'Ghost Orb'],
+      status: 'shown',
+    },
+    {
+      name: 'The Mimic',
+      evidences: ['Spirit Box', 'Ultra Violet', 'Freezing Temperatures'],
+      status: 'shown',
+    },
+    {
+      name: 'Moroi',
+      evidences: ['Spirit Box', 'Ghost Writing', 'Freezing Temperatures'],
+      status: 'shown',
+    },
+    {
+      name: 'Deogen',
+      evidences: ['Spirit Box', 'Ghost Writing', 'D.O.T.S. Projector'],
+      status: 'shown',
+    },
+    {
+      name: 'Thaye',
+      evidences: ['Ghost Orb', 'Ghost Writing', 'D.O.T.S. Projector'],
+      status: 'shown',
+    },
   ];
 
   public evidences = this.defaultEvidences;
