@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Evidence } from './models/evidence.model';
-import { Ghost } from './models/ghost.model';
 import { DEFAULT_GHOSTS } from './data/default-ghosts';
 import { DEFAULT_EVIDENCES } from './data/default-evidences';
 
@@ -44,6 +43,7 @@ export class AppComponent {
     const evidenceToChange = this.evidences.find(
       (posibleEvidence) => evidence.name === posibleEvidence.name
     );
+
     if (evidenceToChange) {
       if (evidenceToChange.status === 'shown') {
         evidenceToChange.status = 'faded';

@@ -3,62 +3,62 @@ import { Ghost } from '../models/ghost.model';
 export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Spirit',
-    evidences: ['EMF Level 5', 'Spirit Box', 'Ultra Violet'],
+    evidences: ['EMF Level 5', 'Spirit Box', 'Ghost Writing'],
     status: 'shown',
   },
   {
     name: 'Wraith',
-    evidences: ['Freezing Temperatures', 'Spirit Box', 'Ultra Violet'],
+    evidences: ['EMF Level 5', 'Spirit Box', 'D.O.T.S. Projector'],
     status: 'shown',
   },
   {
     name: 'Phantom',
-    evidences: ['EMF Level 5', 'Ghost Orb', 'Freezing Temperatures'],
+    evidences: ['Spirit Box', 'Ultra Violet', 'D.O.T.S. Projector'],
     status: 'shown',
   },
   {
     name: 'Poltergeist',
-    evidences: ['Spirit Box', 'Ultra Violet', 'Ghost Orb'],
+    evidences: ['Spirit Box', 'Ultra Violet', 'Ghost Writing'],
     status: 'shown',
   },
   {
     name: 'Banshee',
-    evidences: ['EMF Level 5', 'Ultra Violet', 'Ghost Orb'],
+    evidences: ['Ultra Violet', 'Ghost Orb', 'D.O.T.S. Projector'],
     status: 'shown',
   },
   {
     name: 'Jinn',
-    evidences: ['EMF Level 5', 'Spirit Box', 'Ghost Orb'],
-    status: 'shown',
-  },
-  {
-    name: 'Mare',
-    evidences: ['Spirit Box', 'Ghost Orb', 'Freezing Temperatures'],
-    status: 'shown',
-  },
-  {
-    name: 'Revenant',
     evidences: ['EMF Level 5', 'Ultra Violet', 'Freezing Temperatures'],
     status: 'shown',
   },
   {
-    name: 'Shade',
-    evidences: ['EMF Level 5', 'Ghost Orb', 'Ghost Writing'],
+    name: 'Mare',
+    evidences: ['Spirit Box', 'Ghost Orb', 'Ghost Writing'],
     status: 'shown',
   },
   {
-    name: 'Demon',
-    evidences: ['Spirit Box', 'Ghost Writing', 'Freezing Temperatures'],
-    status: 'shown',
-  },
-  {
-    name: 'Yurei',
+    name: 'Revenant',
     evidences: ['Ghost Orb', 'Ghost Writing', 'Freezing Temperatures'],
     status: 'shown',
   },
   {
+    name: 'Shade',
+    evidences: ['EMF Level 5', 'Ghost Writing', 'Freezing Temperatures'],
+    status: 'shown',
+  },
+  {
+    name: 'Demon',
+    evidences: ['Ultra Violet', 'Ghost Writing', 'Freezing Temperatures'],
+    status: 'shown',
+  },
+  {
+    name: 'Yurei',
+    evidences: ['Ghost Orb', 'Freezing Temperatures', 'D.O.T.S. Projector'],
+    status: 'shown',
+  },
+  {
     name: 'Oni',
-    evidences: ['EMF Level 5', 'Spirit Box', 'Ghost Writing'],
+    evidences: ['EMF Level 5', 'Freezing Temperatures', 'D.O.T.S. Projector'],
     status: 'shown',
   },
   {
