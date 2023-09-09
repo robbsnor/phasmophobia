@@ -13,7 +13,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 h1,
 h2,
 h3 {
@@ -28,19 +27,15 @@ ul {
   padding: 0 0 1rem 1.2rem;
 }
 
-li {
-  // padding-bottom: .5rem;
-}
-
 hr {
   border: 1px solid #202020;
 }
 
 a:not([class]) {
-  color: #9f3333;
+  color: #909090;
   transition: .1s;
 
   &:hover {
-    color: lighten(#9f3333, 20);
+    color: #707070;
   }
 }

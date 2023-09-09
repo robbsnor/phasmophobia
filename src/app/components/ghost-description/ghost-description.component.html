@@ -1,28 +1,26 @@
 <div class="ghost-description">
-  <div class="ghost-description__strengths">
-    <h1>{{ ghost.name }}</h1>
-    <hr />
-    <p></p>
+  <h1 class="ghost-description__name">{{ ghost.name }}</h1>
+  <hr />
+  <p></p>
 
-    <h4>Evidences:</h4>
-    <ul>
-      <li *ngFor="let evidence of ghost.evidences">{{ evidence }}</li>
-    </ul>
-    <hr />
-    <p></p>
+  <h4>Evidences:</h4>
+  <ul>
+    <li *ngFor="let evidence of ghost.evidences">{{ evidence }}</li>
+  </ul>
+  <hr />
+  <p></p>
 
-    <h4>Bullit points:</h4>
-    <ul>
-      <li *ngFor="let point of ghost.bulitPoints">{{ point }}</li>
-    </ul>
-    <hr />
-    <p></p>
+  <h4>Bullit points:</h4>
+  <ul>
+    <li *ngFor="let point of ghost.bulitPoints">{{ point }}</li>
+  </ul>
+  <hr />
+  <p></p>
 
-    <h4>Resources:</h4>
-    <ul>
-      <li *ngFor="let resource of ghost.resources">
-        <a [href]="resource.url" target="_blank">{{ resource.title }}</a>
-      </li>
-    </ul>
-  </div>
+  <h4>Resources:</h4>
+  <ul>
+    <li *ngFor="let resource of ghost.resources">
+      <a [href]="resource.url" target="_blank">{{ resource.title }}</a>
+    </li>
+  </ul>
 </div>
