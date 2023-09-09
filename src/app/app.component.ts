@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Evidence } from './models/evidence.model';
 import { DEFAULT_GHOSTS } from './data/default-ghosts';
 import { DEFAULT_EVIDENCES } from './data/default-evidences';
+import { GhostName } from './models/ghost-name.model';
+import { Ghost } from './models/ghost.model';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +13,7 @@ import { DEFAULT_EVIDENCES } from './data/default-evidences';
 export class AppComponent {
   public evidences = structuredClone(DEFAULT_EVIDENCES);
   public ghosts = structuredClone(DEFAULT_GHOSTS);
+  public selectedGhost: Ghost = this.ghosts[0];
 
   private updatePosibleGhosts() {
     const selectedEvidenceNames = this.evidences
@@ -39,7 +42,7 @@ export class AppComponent {
     this.ghosts = structuredClone(DEFAULT_GHOSTS);
   }
 
-  public changeEvidenceStatus(evidence: Evidence) {
+  public updateStatus(evidence: Evidence) {
     const evidenceToChange = this.evidences.find(
       (posibleEvidence) => evidence.name === posibleEvidence.name
     );
@@ -53,5 +56,9 @@ export class AppComponent {
     }
 
     this.updatePosibleGhosts();
+  }
+
+  public selectGhost(ghost: Ghost) {
+    this.selectedGhost = ghost;
   }
 }

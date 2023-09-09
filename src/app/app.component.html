@@ -9,7 +9,11 @@
 
   <app-card [title]="'Ghosts'" class="app__ghosts">
     <div class="ghosts">
-      <app-item *ngFor="let ghost of ghosts" [status]="ghost.status">
+      <app-item
+        *ngFor="let ghost of ghosts"
+        (click)="selectGhost(ghost)"
+        [status]="ghost.status"
+      >
         {{ ghost.name }}
       </app-item>
     </div>
@@ -22,7 +26,7 @@
       <app-item
         class="evidences__evidence"
         *ngFor="let evidence of evidences"
-        (click)="changeEvidenceStatus(evidence)"
+        (click)="updateStatus(evidence)"
         [status]="evidence.status"
       >
         {{ evidence.name }}
@@ -31,5 +35,6 @@
   </app-card>
 
   <app-card [title]="'Ghost description'" class="app__ghost-description">
+    <app-ghost-description [ghost]="selectedGhost"></app-ghost-description>
   </app-card>
 </div>
