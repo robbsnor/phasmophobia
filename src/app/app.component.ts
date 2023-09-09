@@ -40,6 +40,7 @@ export class AppComponent {
   public reset() {
     this.evidences = structuredClone(DEFAULT_EVIDENCES);
     this.ghosts = structuredClone(DEFAULT_GHOSTS);
+    this.selectedGhost = this.ghosts[0];
   }
 
   public updateStatus(evidence: Evidence) {

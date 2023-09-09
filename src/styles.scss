@@ -7,5 +7,28 @@
 body {
   background-color: black;
   color: #ccc;
+  line-height: 2;
   font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-bottom: 1rem;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+ul {
+  padding: 0 0 1rem 1.2rem;
+}
+
+li {
+  // padding-bottom: .5rem;
 }
