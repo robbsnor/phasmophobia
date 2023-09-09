@@ -4,5 +4,13 @@
     <ul>
       <li *ngFor="let point of ghost.data?.bulitPoints">{{ point }}</li>
     </ul>
+    <hr />
+    <p></p>
+    Resources:
+    <ul>
+      <li *ngFor="let resource of ghost.data.resources">
+        <a [href]="resource.url">{{ resource.title }}</a>
+      </li>
+    </ul>
   </div>
 </div>

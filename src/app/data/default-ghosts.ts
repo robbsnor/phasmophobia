@@ -11,7 +11,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Spirit',
           url: 'https://phasmophobia.fandom.com/wiki/Spirit',
         },
         {
@@ -32,7 +32,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Wraith',
           url: 'https://phasmophobia.fandom.com/wiki/Wraith',
         },
         {
@@ -55,7 +55,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Phantom',
           url: 'https://phasmophobia.fandom.com/wiki/Phantom',
         },
         {
@@ -77,7 +77,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Poltergeist',
           url: 'https://phasmophobia.fandom.com/wiki/Poltergeist',
         },
         {
@@ -104,7 +104,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Banshee',
           url: 'https://phasmophobia.fandom.com/wiki/Banshee',
         },
         {
@@ -128,7 +128,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Jinn',
           url: 'https://phasmophobia.fandom.com/wiki/Jinn',
         },
         {
@@ -153,7 +153,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Mare',
           url: 'https://phasmophobia.fandom.com/wiki/Mare',
         },
         {
@@ -176,7 +176,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Revenant',
           url: 'https://phasmophobia.fandom.com/wiki/Revenant',
         },
         {
@@ -201,7 +201,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Shade',
           url: 'https://phasmophobia.fandom.com/wiki/Shade',
         },
         {
@@ -225,7 +225,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Demon',
           url: 'https://phasmophobia.fandom.com/wiki/Demon',
         },
         {
@@ -247,7 +247,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Yurei',
           url: 'https://phasmophobia.fandom.com/wiki/Yurei',
         },
         {
@@ -270,7 +270,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Oni',
           url: 'https://phasmophobia.fandom.com/wiki/Oni',
         },
         {
@@ -294,7 +294,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Yokai',
           url: 'https://phasmophobia.fandom.com/wiki/Yokai',
         },
         {
@@ -324,7 +324,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Hantu',
           url: 'https://phasmophobia.fandom.com/wiki/Hantu',
         },
         {
@@ -349,7 +349,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Goryo',
           url: 'https://phasmophobia.fandom.com/wiki/Goryo',
         },
         {
@@ -372,7 +372,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Myling',
           url: 'https://phasmophobia.fandom.com/wiki/Myling',
         },
         {
@@ -397,7 +397,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Onryo',
           url: 'https://phasmophobia.fandom.com/wiki/Onryo',
         },
         {
@@ -421,7 +421,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: The Twins',
           url: 'https://phasmophobia.fandom.com/wiki/The_Twins',
         },
         {
@@ -445,7 +445,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Raiju',
           url: 'https://phasmophobia.fandom.com/wiki/Raiju',
         },
         {
@@ -472,7 +472,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Obake',
           url: 'https://phasmophobia.fandom.com/wiki/Obake',
         },
         {
@@ -496,7 +496,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: The Mimic',
           url: 'https://phasmophobia.fandom.com/wiki/The_Mimic',
         },
         {
@@ -523,7 +523,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Moroi',
           url: 'https://phasmophobia.fandom.com/wiki/Moroi',
         },
         {
@@ -549,7 +549,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Deogen',
           url: 'https://phasmophobia.fandom.com/wiki/Deogen',
         },
         {
@@ -575,7 +575,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       ],
       resources: [
         {
-          title: 'Wiki',
+          title: 'Wiki: Thaye',
           url: 'https://phasmophobia.fandom.com/wiki/Thaye',
         },
         {

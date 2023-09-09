@@ -32,3 +32,12 @@ ul {
 li {
   // padding-bottom: .5rem;
 }
+
+a:not([class]) {
+  color: #9f3333;
+  transition: .1s;
+
+  &:hover {
+    color: lighten(#9f3333, 20);
+  }
+}
