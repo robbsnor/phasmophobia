@@ -52,12 +52,12 @@
     &:hover {
       background-color: #404040;
       border-color: #505050;
-
     }
   }
 
   @include screen(1000px) {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-areas:
       "logo logo"
       "ghostDescription evidences"
