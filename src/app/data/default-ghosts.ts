@@ -7,8 +7,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
     status: 'shown',
     data: {
       bulitPoints: [
-        'The Wraith will never step in the salt.',
-        "They can teleport to players (just while it's not hunting) which will give a EMF 2 reading.",
+        "When you smudge a spirit's room, it prevents it from hunting for 3 MINUTES, instead of the usual 90 seconds for most ghosts.",
       ],
       resources: [
         {
@@ -28,10 +27,8 @@ export const DEFAULT_GHOSTS: Ghost[] = [
     status: 'shown',
     data: {
       bulitPoints: [
-        'The Phantom blinks much more during hunts, making it seem almost invisible.',
-        'Will immediately disappear when you take a picture during a ghost event and you will continue to hear the ghost event audio.',
-        'Will not appear in the picture when you take a ghost picture.',
-        'Also able to wander to a targeted player (not to be mistaken with the Wraith teleport).',
+        'The Wraith will never step in the salt.',
+        "They can teleport to players (just while it's not hunting) which will give a EMF 2 reading.",
       ],
       resources: [
         {
