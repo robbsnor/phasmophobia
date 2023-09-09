@@ -1,0 +1,30 @@
+@import 'var/size';
+
+body {
+    .mat-menu-panel {
+        background-color: $c-black--light;
+        border-radius: $border-radius-normal;
+
+        span {
+            color: $c-white--dark;
+        }
+    }
+
+    .mat-menu-item {
+        display: flex;
+        align-items: center;
+        gap: rem(10px);
+
+        feather-icon {
+            color: $c-white--dark;
+
+            svg {
+                display: block;
+            }
+        }
+
+        &:hover:not([disabled]) {
+            background-color: $c-black--lighter;
+        }
+    }
+}

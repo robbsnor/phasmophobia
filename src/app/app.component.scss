@@ -1,14 +1,17 @@
+@import 'mixins/screen';
+
 .app {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding: 20px;
   border-radius: 4px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "logo logo"
-    "ghostDescription evidences"
-    "ghostDescription ghosts";
+    "logo"
+    "evidences"
+    "ghosts"
+    "ghostDescription";
   gap: 20px;
 
   &__logo {
@@ -51,6 +54,14 @@
       border-color: #505050;
 
     }
+  }
+
+  @include screen(1000px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo logo"
+      "ghostDescription evidences"
+      "ghostDescription ghosts";
   }
 }
 
