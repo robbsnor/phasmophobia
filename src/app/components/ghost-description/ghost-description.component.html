@@ -17,6 +17,13 @@
   <hr />
   <p></p>
 
+  <ng-container *ngIf="ghost.forcedEvidence">
+    <h4>Forced evidence:</h4>
+    <p>{{ ghost.forcedEvidence }}</p>
+    <hr />
+    <p></p>
+  </ng-container>
+
   <h4>Resources:</h4>
   <ul>
     <li *ngFor="let resource of ghost.resources">

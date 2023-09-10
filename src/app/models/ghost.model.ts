@@ -5,6 +5,7 @@ export interface Ghost {
   name: GhostName;
   status: 'faded' | 'shown' | 'selected';
   evidences: EvidenceName[];
+  forcedEvidence?: EvidenceName;
   bulitPoints: string[];
   resources: {
     title: string;

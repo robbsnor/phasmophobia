@@ -281,6 +281,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Hantu',
     evidences: ['Ultra Violet', 'Ghost Orb', 'Freezing Temperatures'],
+    forcedEvidence: 'Freezing Temperatures',
     status: 'shown',
     bulitPoints: [
       'Lower the temps, the quicker a hantu will be.',
@@ -309,6 +310,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Goryo',
     evidences: ['EMF Level 5', 'Ultra Violet', 'D.O.T.S. Projector'],
+    forcedEvidence: 'D.O.T.S. Projector',
     status: 'shown',
     bulitPoints: [
       'Goryo dots can only be seen through the video camera.',
@@ -420,6 +422,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Obake',
     evidences: ['EMF Level 5', 'Ultra Violet', 'Ghost Orb'],
+    forcedEvidence: 'Ultra Violet',
     status: 'shown',
     bulitPoints: [
       'The only ghost that can leave a 6 fingered fingerprint.',
@@ -445,6 +448,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'The Mimic',
     evidences: ['Spirit Box', 'Ultra Violet', 'Freezing Temperatures'],
+    forcedEvidence: 'Ghost Orb',
     status: 'shown',
     bulitPoints: [
       'The only ghost to have 4 pieces of evidence on professional difficulty and below (Orbs being the piece of evidence you will get that is not listed in the journal for Mimic).',
@@ -467,6 +471,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Moroi',
     evidences: ['Spirit Box', 'Ghost Writing', 'Freezing Temperatures'],
+    forcedEvidence: 'Spirit Box',
     status: 'shown',
     bulitPoints: [
       'Speed demon.',
@@ -492,6 +497,7 @@ export const DEFAULT_GHOSTS: Ghost[] = [
   {
     name: 'Deogen',
     evidences: ['Spirit Box', 'Ghost Writing', 'D.O.T.S. Projector'],
+    forcedEvidence: 'Spirit Box',
     status: 'shown',
     bulitPoints: [
       'You’re unable to hide from this ghost, he knows the position of every player at anytime.',
