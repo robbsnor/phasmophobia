@@ -7,6 +7,7 @@ export interface Ghost {
   evidences: EvidenceName[];
   forcedEvidence?: EvidenceName;
   bulitPoints: string[];
+  speedRunable?: boolean;
   resources: {
     title: string;
     url: string;

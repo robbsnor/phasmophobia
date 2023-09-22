@@ -13,8 +13,10 @@
         *ngFor="let ghost of ghosts"
         (click)="selectGhost(ghost)"
         [status]="ghost.status"
+        class="ghosts__item"
       >
         {{ ghost.name }}
+        <span *ngIf="ghost.speedRunable" class="ghosts__speedrunable">s</span>
       </app-item>
     </div>
   </app-card>

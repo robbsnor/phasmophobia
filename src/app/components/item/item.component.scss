@@ -1,6 +1,8 @@
 .item {
   padding: 9px 12px;
   line-height: 1;
+  display: flex;
+  justify-content: space-between;
   background-color: #202020;
   border: 1px solid #303030;
   border-radius: 6px;

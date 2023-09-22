@@ -13,10 +13,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Spirit',
         url: 'https://phasmophobia.fandom.com/wiki/Spirit',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -32,10 +28,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Wraith',
         url: 'https://phasmophobia.fandom.com/wiki/Wraith',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -48,14 +40,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Will not appear in the picture when you take a ghost picture.',
       'Also able to wander to a targeted player (not to be mistaken with the Wraith teleport).',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Phantom',
         url: 'https://phasmophobia.fandom.com/wiki/Phantom',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -68,14 +57,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'During hunts, it has a 100% chance to thrown an object nearby every 0.5 seconds compared to 50% for other ghosts.',
       'Can do an “explosion” of items Create a pile of items in the ghost room, and it will explode the items.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Poltergeist',
         url: 'https://phasmophobia.fandom.com/wiki/Poltergeist',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -98,10 +84,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Banshee',
         url: 'https://phasmophobia.fandom.com/wiki/Banshee',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -119,10 +101,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       {
         title: 'Wiki: Jinn',
         url: 'https://phasmophobia.fandom.com/wiki/Jinn',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -143,10 +121,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Mare',
         url: 'https://phasmophobia.fandom.com/wiki/Mare',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -159,14 +133,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'After reaching the players last known location, it will gradually slow back down if it doesn’t see the player.',
       'Best tell for a revenant: slow steps when it does not see a player, and instantly fast speeds when it does see a player.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Revenant',
         url: 'https://phasmophobia.fandom.com/wiki/Revenant',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -187,10 +158,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Shade',
         url: 'https://phasmophobia.fandom.com/wiki/Shade',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -209,10 +176,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Demon',
         url: 'https://phasmophobia.fandom.com/wiki/Demon',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -229,10 +192,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Yurei',
         url: 'https://phasmophobia.fandom.com/wiki/Yurei',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -245,14 +204,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Has a higher chance of showing its full form during ghost events (instead of being a shadow or transparent).',
       'Will drain double the sanity when a ghost event hits you.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Oni',
         url: 'https://phasmophobia.fandom.com/wiki/Oni',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -267,14 +223,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'activity is increased when talking near a Yokai.',
       'test for a Yokai, hide in a room nearby with equipment on and yell at it during a hunt: if you’re close enough and the ghost doesn’t find you, probably a yokai.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Yokai',
         url: 'https://phasmophobia.fandom.com/wiki/Yokai',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -296,14 +249,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Will produce freezing breath during a hunt in any room if the breaker is off.',
       'Will always have freezing temps on Nightmare mode.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Hantu',
         url: 'https://phasmophobia.fandom.com/wiki/Hantu',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -325,10 +275,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Goryo',
         url: 'https://phasmophobia.fandom.com/wiki/Goryo',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -341,14 +287,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Myling will also respond more on the parabolic microphone.',
       'To test for a myling, hide with your flashlight or put dots on the floor, if you only hear footsteps during a hunt right when your equipment starts flickering, its likely a Myling.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Myling',
         url: 'https://phasmophobia.fandom.com/wiki/Myling',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -369,10 +312,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: Onryo',
         url: 'https://phasmophobia.fandom.com/wiki/Onryo',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -386,14 +325,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Will only send out one ghost during a hunt.',
       'May also hunt from a different location from the ghost room if it’s sending out its “decoy” twin.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: The Twins',
         url: 'https://phasmophobia.fandom.com/wiki/The_Twins',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -408,14 +344,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'When hunting, electronics will malfunction at 15m for a Raji as opposed to 10m for other ghosts.',
       'May be easy to confuse a Raiju with a Myling because of the above fact, so make sure to pay attention to its speed near powered electronics.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Raiju',
         url: 'https://phasmophobia.fandom.com/wiki/Raiju',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -434,14 +367,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'It was a 6.66% chance every time it blinks during a hunt to shapeshift.',
       'To test for an obake during a hunt, loop it for as long as possible and see if it changes ghost models.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Obake',
         url: 'https://phasmophobia.fandom.com/wiki/Obake',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -462,10 +392,6 @@ export const DEFAULT_GHOSTS: Ghost[] = [
         title: 'Wiki: TheMimic',
         url: 'https://phasmophobia.fandom.com/wiki/The_Mimic',
       },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
-      },
     ],
   },
   {
@@ -483,14 +409,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Moroi will also get line of site speed, so at 0% sanity and enough LOS speed, Moroi becomes the fastest ghost in the game.',
       'Spirit box is forced evidence on nightmare.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Moroi',
         url: 'https://phasmophobia.fandom.com/wiki/Moroi',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -508,14 +431,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'Spirit Box is forced evidence.',
       "HAHAHAH STUPID GHOST CAN'T RUN XDXDXD",
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Deogen',
         url: 'https://phasmophobia.fandom.com/wiki/Deogen',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
@@ -532,14 +452,11 @@ export const DEFAULT_GHOSTS: Ghost[] = [
       'If it seems to slow down each hunt, its likely a Thaye.',
       'It will also tell you a different age on the ouija board if you ask it its age at the beginning of the game and then again later on once you’ve aged it.',
     ],
+    speedRunable: true,
     resources: [
       {
         title: 'Wiki: Thaye',
         url: 'https://phasmophobia.fandom.com/wiki/Thaye',
-      },
-      {
-        title: 'General Steam guide',
-        url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165',
       },
     ],
   },
