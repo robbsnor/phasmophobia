@@ -6,7 +6,12 @@
   <h4>Evidences:</h4>
   <ul>
     <li *ngFor="let evidence of ghost.evidences">
-      {{ evidence }} <span *ngIf="ghost.forcedEvidence === evidence" class="ghost-description__forced">(forced)</span>
+      {{ evidence }}
+      <span
+        *ngIf="ghost.forcedEvidence === evidence"
+        class="ghost-description__forced"
+        >(forced)</span
+      >
     </li>
   </ul>
   <hr />
@@ -21,16 +26,23 @@
 
   <h4>Resources:</h4>
   <ul>
-    <li *ngIf="ghost.speedRunable">
-      <a href="https://www.youtube.com/watch?v=qPgizYuP8SM&ab_channel=Insym" target="_blank">Insym speedrun strat</a>
-    </li>
-  </ul>
-  <ul>
     <li *ngFor="let resource of ghost.resources">
       <a [href]="resource.url" target="_blank">{{ resource.title }}</a>
     </li>
     <li>
-      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165" target="_blank">General Steam guide</a>
+      <a
+        href="https://steamcommunity.com/sharedfiles/filedetails/?id=3025678165"
+        target="_blank"
+        >General Steam guide</a
+      >
+    </li>
+    <li>
+      <a
+        *ngIf="ghost.speedRunable"
+        href="https://www.youtube.com/watch?v=qPgizYuP8SM&ab_channel=Insym"
+        target="_blank"
+        >Insym speedrun strat</a
+      >
     </li>
   </ul>
 </div>
